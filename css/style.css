@@ -1,0 +1,48 @@
+#fundo{
+    background-color: #005eb6;
+}
+
+.carrossel{
+    width: 440px;
+    height: 675px;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 10%;
+    border: solid 5px #000;
+}
+
+.carrossel .fotos{
+    width: 1100%;
+    animation: animacao 15s infinite;
+}
+
+.carrossel .fotos img{
+    width: 436px;
+}
+
+@keyframes animacao{
+    0% { margin-left: 0; }
+    10% { margin-left: 0; }
+    10% { margin-left: -100%; }
+    20% { margin-left: -100%; }
+    20% { margin-left: -200%; }
+    30% { margin-left: -200%; }
+    30% { margin-left: -300%; }
+    40% { margin-left: -300%; }
+    40% { margin-left: -400%; }
+    50% { margin-left: -400%; }
+    50% { margin-left: -500%; }
+    60% { margin-left: -500%; }
+    60% { margin-left: -600%; }
+    70% { margin-left: -600%; }
+    70% { margin-left: -700%; }
+    80% { margin-left: -700%; }
+    80% { margin-left: -800%; }
+    90% { margin-left: -800%; }
+    90% { margin-left: -900%; }
+    100% { margin-left: -900%; }
+    100% { margin-left: -1000%; }
+ 
+    
+
+}
